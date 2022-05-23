@@ -34722,12 +34722,14 @@ a.u-link.u-text-hover-grey-90:hover {
   background-position-x: center;
   background-attachment: fixed;
   background-size: cover;
+
+ 
 }
 
 
 #sec-cda7{
   background-image: url(https://cdn.pixabay.com/photo/2017/09/05/10/19/business-2717063_960_720.jpg);
-  padding: 80px;
+  padding: 315px;
 }
 
 
@@ -34782,5 +34784,53 @@ background-color: #222;
   width: 100px;
   height: 100px;
   margin: 0px auto;
+}
+
+#mainNav{
+  background-color:#a2adbc;
+  text-decoration: #000;
+}
+
+
+
+/*#colC4   {
+  right: -33%;
+  
+}
+#colP3   {
+  left: -66%;
+
+  
+}
+#colP4   {
+  right: -63.5%;
+  height: 50%;
+  position: relative; 
+
+    margin-top: -60.5%; 
+  
+}
+#colP2   {
+  right: -30%;
+  margin-top: 1%; 
+  
+}
+#colP1 {
+
+  margin-top: 1%; 
+  
+
+}
+
+.text1 {
+  left: -100%;
+  
+}*/
+.img-croix-rougeE{
+  float:left;
+}
+
+.img-croix-rougeV{
+  float:right;
 }
 
