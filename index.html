@@ -43,8 +43,8 @@
     len = words.length,
     forwards = true,
     skip_count = 0,
-    skip_delay = 15,
-    speed = 70;
+    skip_delay = 0,
+    speed = 0;
 var wordflick = function () {
   setInterval(function () {
     if (forwards) {
@@ -120,8 +120,8 @@ $(window).scroll(function (event) {
           <div class="nav">
             <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="index.html" style="padding: 10px 20px;">Accueil</a>
 </li><li class="u-nav-item"><a class="nav-link js-scroll-trigger" href="#presentation" style="padding: 10px 20px;">Présentation</a>
-</li><li class="u-nav-item"><a class="nav-link js-scroll-trigger" style="padding: 10px 20px;" href="#competence">Compétences</a>
 </li><li class="u-nav-item"><a class="nav-link js-scroll-trigger" href="#realisation" style="padding: 10px 20px;">Projets</a>
+</li><li class="u-nav-item"><a class="nav-link js-scroll-trigger" style="padding: 10px 20px;" href="#competence">Compétences</a>
 </li><li class="u-nav-item"><a class="nav-link js-scroll-trigger" href="#veille" style="padding: 10px 20px;">Veille Technologie</a>
 </li><li class="u-nav-item"><a class="nav-link js-scroll-trigger" href="#contact" style="padding: 10px 20px;">Contact</a>
 </li></ul>
@@ -195,119 +195,10 @@ $(window).scroll(function (event) {
     <br>
     <br>
         <h3> Projet Professionel</h3>
-        <p >Après mes études en BTS SIO j'envisage de trouver une entreprise en developpement web.&nbsp;</p> </center>
+        <p >Après mes études en BTS SIO j'envisage de trouver une entreprise pour le développement back-end.&nbsp;</p> </center>
       </div>
     </section>
-     <!-- End Presentation Section -->
-    <section class="u-clearfix u-section-3" id="sec-bd0a">
-        <!-- ======= Competences Section ======= -->
-    
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="title-box text-center">
-                <h2 id="competence">
-                  Compétences 
-                 
-                </h2>
-                <p class="subtitle-a">
-                 
-                </p>
-                <div class="line-mf"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              
-                <div class="card card-blog animate-center-right">
-                  <img src="images/code.png" alt="" class="img-code">
-                  
-                    <div class="card-img"></div>
-                    <div class="card-body">
-                      <div class="card-category-box">
-                        <div class="card-category">
-                          
-                        </div>
-                      </div>
-                      <h3 class="card-title"></h3>
-                      <p class="card-description">
-                        HTML <br> PHP <br> CSS  <br>C# <br> Java 
-                      </p>
-                    </div>
-                </div>
-              
-            </div>
-            <div class="col-md-4">
-             
-                <div class="card card-blog animate-center-top card-center">
-                  <img src="images/frame.png" alt="" class="img-frame">
-                  <div class="card-img img-gedimat">
-            
-                  </div>
-                  <div class="card-body">
-                    <div class="card-category-box">
-                      <div class="card-category">
-                        <h4 class="category"></h4>
-                      </div>
-                    </div>
-                    
-                    <p class="card-description">
-                     .NET <br> Bootstrap  <br>Jquery
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-4">
-              
-                <div class="card card-blog animate-center-left">
-                  <img src="images/R.png" alt="" class="img-bdd">
-                  <div class="card-img">
-                  
-                  </div>
-                  <div class="card-body">
-                    <div class="card-category-box">
-                      <div class="card-category">
-                        <h4 class="category"></h4>
-                      </div>
-                    </div>
-                    
-                    <p class="card-description">
-                     SQL <br> MSQL <br> PostgreSQL <br> Laragon
-                    </p>
-                  </div>
-                </div>           
-            </div>           
-            <div class="col-md-4" id="colC4">
-              
-              <div class="card card-blog animate-center-right">
-                <img src="images/logiciel.png" alt="" class="img-logiciel">
-                <div class="card-img">
-                
-                </div>
-                <div class="card-body">
-                  <div class="card-category-box">
-                    <div class="card-category">
-                      <h4 class="category"></h4>
-                    </div>
-                  </div>
-      
-                  <p class="card-description">
-                   Visual Studio Code <br> Visual Studio <br> Android Studio  <br>Postman
-                  </p>
-                </div>
-              </div>
-            
-          </div>
-            
-          </div>
-          
-        </div>
-        <br>
-      <!-- End Stages Section -->
- 
-    </section>
+  
     <section class="test1" id="sec-ec92">
        <!-- ======= Stages Section ======= -->
        
@@ -447,7 +338,120 @@ $(window).scroll(function (event) {
       </div>
     <!-- End Stages Section -->
     </section>
+
+
+
+      <!-- End Presentation Section -->
+      <section class="u-clearfix u-section-3" id="sec-bd0a">
+        <!-- ======= Competences Section ======= -->
     
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h2 id="competence">
+                  Compétences 
+                 
+                </h2>
+                <p class="subtitle-a">
+                 
+                </p>
+                <div class="line-mf"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              
+                <div class="card card-blog animate-center-right">
+                  <img src="images/code.png" alt="" class="img-code">
+                  
+                    <div class="card-img"></div>
+                    <div class="card-body">
+                      <div class="card-category-box">
+                        <div class="card-category">
+                          
+                        </div>
+                      </div>
+                      <h3 class="card-title"></h3>
+                      <p class="card-description">
+                        HTML <br> PHP <br> CSS  <br>C# <br> Java 
+                      </p>
+                    </div>
+                </div>
+              
+            </div>
+            <div class="col-md-4">
+             
+                <div class="card card-blog animate-center-top card-center">
+                  <img src="images/frame.png" alt="" class="img-frame">
+                  <div class="card-img img-gedimat">
+            
+                  </div>
+                  <div class="card-body">
+                    <div class="card-category-box">
+                      <div class="card-category">
+                        <h4 class="category"></h4>
+                      </div>
+                    </div>
+                    
+                    <p class="card-description">
+                     .NET <br> Bootstrap  <br>JQuery
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4">
+              
+                <div class="card card-blog animate-center-left">
+                  <img src="images/R.png" alt="" class="img-bdd">
+                  <div class="card-img">
+                  
+                  </div>
+                  <div class="card-body">
+                    <div class="card-category-box">
+                      <div class="card-category">
+                        <h4 class="category"></h4>
+                      </div>
+                    </div>
+                    
+                    <p class="card-description">
+                     SQL <br> MSQL <br> PostgreSQL <br> Laragon
+                    </p>
+                  </div>
+                </div>           
+            </div>           
+            <div class="col-md-4" id="colC4">
+              
+              <div class="card card-blog animate-center-right">
+                <img src="images/logiciel.png" alt="" class="img-logiciel">
+                <div class="card-img">
+                
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h4 class="category"></h4>
+                    </div>
+                  </div>
+      
+                  <p class="card-description">
+                   Visual Studio Code <br> Visual Studio <br> Android Studio  <br>Postman <br><br> <strong>Autres :</strong><br> Github <br>Trello
+                  </p>
+                </div>
+              </div>
+            
+          </div>
+            
+          </div>
+          
+        </div>
+        <br>
+      <!-- End Stages Section -->
+ 
+    </section>
+    <br>
     
      <!-- Veille Section -->
     <section class="u-clearfix u-section-4" id="sec-ec90">
@@ -510,7 +514,7 @@ $(window).scroll(function (event) {
                 </ul>
             </div>
         </div>
-          <center>  <span><img src="images/alert.PNG"  alt="Croix Rouge Logo" width="900" height="400" float="animate-center-right"  ></center>
+          <center>  <span><img src="images/googlealert.png"  alt="Croix Rouge Logo" width="800" height="400" float="animate-center-right"  ></center>
 
 
             <p>J'utilise  des google alert pour me tenir informé sur les SGBD que je consulte régulièrement depuis peu .</p>
@@ -547,9 +551,9 @@ $(window).scroll(function (event) {
           
           <a><Label>Adresse Mail : nicolas.bruyas.btssio@gmail.com</Label><br></a>
           <br>
-          <a href="https://www.linkedin.com/in/nicolas-bruyas-2255b21b8/" ><Label>Linkedin</Label><br></a>
+          <a href="https://www.linkedin.com/in/nicolas-b-2255b21b8/" ><Label>Linkedin</Label><br></a>
           <a href="https://github.com/" ><Label>Mon Github</Label><br></a>
-          <a href="fichiers/CV Bruyas Nicolas (3) (1).pdf" download>Mon CV</p></a>
+         
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
       <a class="u-link" href="https://nicepage.com/css-templates" target="_blank">
